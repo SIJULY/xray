@@ -22,7 +22,7 @@ cat > $CONFIG_PATH <<EOF
   "timeout": 300,
   "method": "$METHOD",
   "fast_open": false,
-  "nameserver": "8.8.8.8",
+  "nameserver": "1.1.1.1,1.0.0.1",
   "mode": "tcp_and_udp"
 }
 EOF
